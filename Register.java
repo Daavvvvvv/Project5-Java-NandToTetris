@@ -31,7 +31,7 @@ public class Register {
     /**
      * Obtiene los bits almacenados actualmente en el registro.
      *
-     * @return Un arreglo de booleanos que representa los bits almacenados en el registro
+     * @return Un arreglo de booleanos que representa los bits almacenados en el registr
      */
     public boolean[] getBits() {
         return this.data;

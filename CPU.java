@@ -41,7 +41,7 @@ public class CPU {
         }
 
         if (isALUOp) {
-            boolean[] aluResult = alu.compute(aRegister.getBits(), dRegister.getBits(), false, false, false, true, true, false);
+            boolean[] aluResult = alu.compute(aRegister.getBits(), dRegister.getBits(), false, false, false, false, true, false);
             dRegister.load(aluResult, true);
         }
     }

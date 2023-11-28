@@ -13,12 +13,12 @@ public class Main {
 
         boolean[] firstBinary = new boolean[16];
         firstBinary[12] = true; // 0000000000001000
-        firstBinary[13] = true;  // 0000000000000100
-        firstBinary[14] = false; // 0000000000000010
-        firstBinary[15] = false; // 0000000000000001
+        firstBinary[13] = false;  // 0000000000000100  
+        firstBinary[14] = true; // 0000000000000010
+        firstBinary[15] = true; // 0000000000000001
 
         boolean[] secondBinary = new boolean[16];
-        secondBinary[12] = true; // 0000000000001000
+        secondBinary[12] = false; // 0000000000001000
         secondBinary[13] = true; // 0000000000000100
         secondBinary[14] = false; // 0000000000000010
         secondBinary[15] = true; // 0000000000000011 // 1111111111111100
@@ -54,3 +54,4 @@ public class Main {
         return value;
     }
 }
+
